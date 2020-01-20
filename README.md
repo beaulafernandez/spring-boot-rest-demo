@@ -19,3 +19,5 @@ eg : sample customer id : CRN12345 / sample account number : 585309209
 view accounts - http://localhost:8080/customer/accounts/CRN12345
 view tranactions - http://localhost:8080/account/transactions/585309209
 
+Database : h2 filed-base.
+To access the database use the URL, http://localhost:8080/h2-console/ once the application is up and running.
