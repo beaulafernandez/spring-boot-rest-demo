@@ -21,3 +21,8 @@ view tranactions - http://localhost:8080/account/transactions/585309209
 
 Database : h2 filed-base.
 To access the database use the URL, http://localhost:8080/h2-console/ once the application is up and running.
+The sql query to load the database is present in the data.sql. This file runs on start up of the application.
+Note : 
+->when you run the application use the existing h2 folder in the same project folder structure which contains the data and remove the data.sql file.
+->if the data.sql is not removed - delete the any exisitng h2 folder before running the application. 
+
