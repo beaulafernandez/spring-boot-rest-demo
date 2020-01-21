@@ -7,6 +7,12 @@ import org.springframework.stereotype.Service;
 import com.anz.model.CustomerAccount;
 import com.anz.model.Transaction;
 
+/**
+ * Inteface defining the functionalities 
+ * to be implemented. 
+ * @author beaula.fernandez
+ *
+ */
 @Service
 public interface AccountService {
 	
